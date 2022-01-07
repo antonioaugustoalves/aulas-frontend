@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Envie uma mensagem</title>
+</head>
+
+<body>
+    <h1>Envie sua mensagem!</h1>
+    <form action="">
+        <div>
+            <label for="nome">Digite o seu nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="digite o seu nome" required minlength="3">
+        </div><br>
+        <div>
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" name="nascimento" id="nascimento">
+        </div><br>
+        <div>
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone">
+        </div><br>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required maxlength="300">
+        </div><br>
+        <div>
+            <label for="interesses">Tenho interesse nos cursos:</label>
+            <input type="checkbox" name="interesses" value="Front-end"> Front-end
+            <input type="checkbox" name="interesses" value="Java para web"> Java para web
+            <input type="checkbox" name="interesses" value="Fullstack Javascrip"> Fullstack Javascript
+            <input type="checkbox" name="interesses" value="sql"> Oracle SQL
+            <input type="checkbox" name="interesses" value="mobile"> Desenvolvimento Mobile
+        </div><br>
+        <div>
+            <label for="obs">Observações</label><br>
+            <textarea name="obs" id="" cols="60" rows="10" maxlength="60"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Enviar forulario">
+            <input type="reset" value="Redefinir formulario">
+        </div>
+    </form>
+</body>
+
+</html>
