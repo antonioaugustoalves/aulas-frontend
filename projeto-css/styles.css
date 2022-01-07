@@ -1,0 +1,22 @@
+h1 {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+}
+
+p {
+    background-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: yellow;
+    border: 5px solid #f29911;
+    border-radius: 25px 0px 25px 0px;
+    padding: 15px;
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    font-size: 30px;
+    list-style: square;
+}
