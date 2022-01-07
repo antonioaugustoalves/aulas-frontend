@@ -20,3 +20,20 @@ ul {
     font-size: 30px;
     list-style: square;
 }
+
+.itens {
+    width: 160px;
+    display: block;
+    color: blue;
+    padding: 10px;
+    border: 2px red solid;
+    margin-bottom: 5px;
+}
+
+#topo {
+    padding: 10px;
+    background-color: #333;
+    color: #fefefe;
+    border: #990000 3px dashed;
+    margin: 15px;
+}
