@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    <h1>Cadastro de novo usuário:</h1>
     <form action="">
         <label for="txt-idade">Digite sua idade:</label>
         <input type="number" name="txt-idade" id="txt-idade" min="4" max="100">
@@ -31,6 +32,17 @@
         <input type="checkbox" name="idiomas" id="chk-italiano" value="italiano">Italiano
         <input type="checkbox" name="idiomas" id="chk-frances" value="frances">Francês
         <br><br>
+
+        <label for="obs">Observações</label><br>
+        <textarea name="obs" id="obs" cols="60" rows="5"></textarea>
+        <br><br>
+        <label for="lista">Selecione um pais</label>
+        <select name="lista" id="lista">
+            <option value="BR">Brasil</option>
+            <option value="JPN">Japão</option>
+            <option value="EUA">Estados Unidos</option>
+            <option value="CAN">Canadá</option>
+        </select><br><br>
         <input type="submit" value="Confirma">
     </form>
 </body>
